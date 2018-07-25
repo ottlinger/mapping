@@ -18,11 +18,13 @@ package de.aikiit.mapping;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Optional;
 
 public class PojoMappingTest {
+    @Test
     public void checkObjectMapper() throws IOException {
         TestPojo2 bla = new TestPojo2();
         bla.setHello("bla");
@@ -30,7 +32,7 @@ public class PojoMappingTest {
         String s = createJsonMapper().writeValueAsString(bla);
     }
 
-    public static ObjectMapper createJsonMapper() {
+    private static ObjectMapper createJsonMapper() {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new Jdk8Module());
         return mapper;
