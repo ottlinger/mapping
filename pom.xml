@@ -48,7 +48,7 @@
     <javadoc.version>3.0.0-M1</javadoc.version>
     <surefire.version>2.20.1</surefire.version>
     <cobertura.version>2.7</cobertura.version>
-    <rat.version>0.12</rat.version>
+    <rat.version>0.13</rat.version>
     <encoding.utf8>UTF-8</encoding.utf8>
     <project.reporting.outputEncoding>${encoding.utf8}</project.reporting.outputEncoding>
     <project.build.sourceEncoding>${encoding.utf8}</project.build.sourceEncoding>
