@@ -44,7 +44,7 @@
     <url>https://github.com/ottlinger/mailclena</url>
   </scm>
   <properties>
-    <jackson-annotations.version>2.9.6</jackson-annotations.version>
+    <jackson-annotations.version>2.9.8</jackson-annotations.version>
     <javadoc.version>3.0.0-M1</javadoc.version>
     <surefire.version>2.20.1</surefire.version>
     <cobertura.version>2.7</cobertura.version>
